@@ -1,0 +1,69 @@
+body{
+  padding: 0px; margin: 0px;
+}
+a{
+  color: black;
+  text-decoration: none;
+  font-family: "Hahmlet", sans-serif;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0px;
+}
+p{
+  font-family: "Hahmlet", sans-serif;
+}
+video{
+  width: 100%;
+}
+.jb-box{
+  width: 100%; height: 500px; overflow: hidden;margin: 0px auto; position: relative;
+}
+.jb-text{
+  position: absolute; top: 50%; width: 100%;
+}
+.jb-text h1
+{ margin-top: -24px; text-align: center; font-size: 100px; color: #FFFAFA;
+  font-family: Lucida Handwriting;
+  text-shadow: 2px 2px #000000;
+}
+.jb-text h2
+{ margin-top: -24px; text-align: center; font-size: 40px; color: #000000;
+  font-family: "Hahmlet", sans-serif;}
+.jb-text h6
+  { margin-top: -24px; text-align: center; color: #000000;
+    font-family: "Hahmlet", sans-serif;
+}
+.writing{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.intro{
+  text-align: center;
+  font-size: 20px;
+  height: 250px;
+  background-image: linear-gradient(to right, #fff5ee, #fff7f0, #fff8f2, #fffaf4, #fffbf6);
+}
+.intro p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 96px;
+}
+.story{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  height: 250px;
+  background-image: linear-gradient(to right top, #fffefd, #fffcf9, #fffaf4, #fff9f0, #fff7eb, #fff7ea, #fff6e8, #fff6e7, #fff7e8, #fff8ea, #fff9eb, #fffaed);
+}
+.story p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 96px;
+}
+@media(max-width: 1200px) {
+  .writing{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
